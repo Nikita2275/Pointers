@@ -4,7 +4,7 @@
 using namespace std;
 
 int* numbers{ nullptr };
-int N, P;
+
 
 void Randomizer()
 {
