@@ -15,7 +15,7 @@ void Randomizer()
     cout << "Enter the number of elements: ";
     cin >> N;
 
-    numbers = new int[N];
+    numbers = { new int[N] };
 
     cout << "\nGenerated " << N << " random numbers:\n";
     cout << "------------------------\n";
